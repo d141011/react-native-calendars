@@ -18,7 +18,9 @@ export default function platformStyles(appStyle) {
       paddingRight: 24,
       paddingTop: 15,
       paddingBottom: 7,
-      backgroundColor: appStyle.calendarBackground
+      backgroundColor: appStyle.calendarBackground,
+      elevation: 2,
+      backgroundColor: '#fff'
     },
   };
 }
