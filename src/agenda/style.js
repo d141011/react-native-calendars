@@ -16,6 +16,8 @@ export default function styleConstructor(theme = {}) {
       position:'absolute',
       height:'100%',
       width:'100%',
+      backgroundColor: '#fff',
+      elevation: 2
     },
     calendar: {
       flex: 1,
@@ -27,7 +29,7 @@ export default function styleConstructor(theme = {}) {
       position: 'absolute',
       left: 0,
       right: 0,
-      height: 24,
+      height: 38,
       bottom: 0,
       alignItems: 'center',
       backgroundColor: appStyle.calendarBackground
@@ -40,7 +42,7 @@ export default function styleConstructor(theme = {}) {
     },
     reservations: {
       flex: 1,
-      marginTop: 104,
+      marginTop: 126,
       backgroundColor: appStyle.backgroundColor
     },
     ...(theme[STYLESHEET_ID] || {})
